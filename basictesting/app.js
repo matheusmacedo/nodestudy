@@ -31,3 +31,7 @@ console.log(blair.__proto__);
 
 var sing = require('./sing');
 sing();
+
+var lang = require('./language');
+lang.english();
+lang.portuguese();
