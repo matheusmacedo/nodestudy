@@ -28,3 +28,6 @@ blair.fbreed();
 console.log(blair.__proto__);
 
 // objects are passed by reference
+
+var sing = require('./sing');
+sing();
